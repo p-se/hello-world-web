@@ -1,0 +1,9 @@
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: long-name-test
+spec:
+  repo: https://github.com/p-se/hello-world-web
+  branch: master
+  paths:
+    - charts
