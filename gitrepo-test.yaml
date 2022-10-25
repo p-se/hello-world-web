@@ -1,10 +1,10 @@
 kind: GitRepo
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
-  name: gitrepo-hello-world-web
+  name: gitrepo-examples-simple
   namespace: fleet-local
 spec:
-  repo: https://github.com/p-se/hello-world-web
+  repo: https://github.com/rancher/fleet-examples
   branch: master
   paths:
-    - charts
+    - simple
