@@ -1,2 +1,5 @@
-foo:
-  - bar
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
